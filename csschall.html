@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+<head>    
+    <title>SCOOB Fake site</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+     
+</head>
+<body>
+    
+    
+    <div class = "container" >
+        
+<div class= "header">
+    </div>
+
+<div class="snack">
+            <div class="area"></div>
+        </div>
+
+<div class="do">
+            <div class="scob"></div>
+        </div>
+
+<div class="so">
+            <div class="bye"></div>
+        </div>
+
+<div class="go">
+            <div class="no"></div>
+        </div>
+
+
+<div id="menucont">
+
+<span class="slide">
+      <a href="#" onclick="openSlideMenu()">
+        <div id="me">MENU</div>
+      </a>
+    </span>
+<div id="menu" class="nav">
+      <a href="#" class="close" onclick="closeSlideMenu()">
+        <i class="fas fa-times"></i>
+      </a>
+      <a href="csschall.html">Home</a>
+      <a href="#">About</a>
+      <a href="#">Premiere</a>
+      <a href="https://www.disneyplus.com/" >Disney+</a> 
+      <a href="https://www.netflix.com/au/">Netflix</a>
+      <a href="#">Characters</a>
+      <a href="#">Games</a>
+      <a href="#">Shop</a>
+    </div>
+  </div>
+
+
+
+<div id="char1"></div>
+<div id="char2"></div>
+<div id="char3"></div>
+<div id="char4"></div>
+<div id="char5"></div>
+<div id="char6"></div>
+<div id="char7"></div>
+<div id="char8" ></div>
+<div id="box">
+    <img src=images/G.gif>
+
+
+</div>
+
+<div id="song">
+
+<audio id="myAudio" src="audio/song.mp3" controls autoplay loop />
+
+</div>
+
+<div id="logo"></div>
+
+<div id="mute">
+     <input type="image" src="images/mute.png">
+ 
+</div>
+
+
+    <div class = "footer">
+        <h2>WARNER STUDIOS,GEORGE GADALLA @ 2020 WBS</h2>
+        
+        
+    </div>
+</div>
+    
+  <script>
+    function openSlideMenu(){
+      document.getElementById('menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+    
+    var x = document.getElementById("myAudio");
+
+    function enableMute() { 
+      audio.muted = true;
+    } 
+  </script>
+
+
+</body>
+</html>

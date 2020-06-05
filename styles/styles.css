@@ -1,0 +1,323 @@
+.container{
+    background: #2649ac radial-gradient(ellipse at center,transparent 0,transparent 40%,#000 100%);
+    width: 1435px;
+    height: 805px;
+    position: absolute;
+    margin-top: -20px;
+    padding-left: 10px;
+    margin-left: -10px;
+    
+}
+
+
+@font-face {
+    font-family: 'scoob_epicregular';
+    src: url('fonts/scoobepic-8mawa-webfont.woff2') format('woff2'),
+         url('fonts/scoobepic-8mawa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#menucont{
+    position: absolute;
+    margin-left: 1290px;
+    color: white;
+    font-size: 35px;
+    margin-top: -465px;
+}
+
+#me{
+    color: white;
+    font-family: sans-serif;
+}
+
+#logo{
+    background-image: url(../images/D.png);
+    height: 240px;
+    width: 355px;
+    margin-left: -80px;
+    margin-top: -400px;
+    
+}
+
+
+
+.header{
+    width: 290px;
+    height: 250px;
+    background-image: url(../images/logo.png);
+    color: white;
+    text-align: center;
+    background-color: none;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    line-height: 20px;
+}
+
+#char1{
+    background-image: url(../images/1.png);
+    height: 740px;
+    margin-top: -434px;
+    width: 300px;
+    margin-left: 325px;
+    position: absolute;
+    
+}
+
+#char2{
+    background-image: url(../images/2.png);
+    height: 700px;
+    margin-top: -394px;
+    width: 300px;
+    margin-left: 370px;
+    position: absolute;
+    
+}
+
+#char3{
+    background-image: url(../images/3.png);
+    height: 750px;
+    margin-top: -444px;
+    width: 270px;
+    margin-left: 390px;
+    position: absolute;
+    
+}
+
+#char4{
+    background-image: url(../images/4.png);
+    height: 710px;
+    margin-top: -404px;
+    width: 210px;
+    margin-left: 460px;
+    position: absolute;
+    
+}
+
+#char5{
+    background-image: url(../images/5.png);
+    height: 710px;
+    margin-top: -404px;
+    width: 210px;
+    margin-left: 495px;
+    position: absolute;
+    
+}
+
+#char6{
+    background-image: url(../images/6.png);
+    height: 700px;
+    margin-top: -394px;
+    width: 250px;
+    margin-left: 545px;
+    position: absolute;
+    
+}
+
+#char7{
+    background-image: url(../images/7.png);
+    height: 700px;
+    margin-top: -424px;
+    width: 275px;
+    margin-left: 575px;
+    position: absolute;
+    
+}
+
+#char8{
+    background-image: url(../images/8.png);
+    height: 740px;
+    margin-top: -434px;
+    width: 280px;
+    margin-left: 635px;
+    position: absolute;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    
+}
+
+#box{
+    background-image: url(../images/t.png);
+    height: 335px;
+    width: 190px;
+    margin-left: 1200px;
+    margin-top: -180px;
+}
+
+#box img {
+    height: 315px;
+    width: 170px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#song{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -700px;
+    visibility: hidden;
+    
+}
+
+
+
+img{
+    height: 75px;
+    width: 75px;
+    margin-top: -90px;
+    position: absolute;
+    margin-left: -685px;
+}
+
+.nav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 1200px;
+	background-color: #111;
+	opacity: .9;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.7s;
+}
+.nav a {
+	display: block;
+	padding: 20px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	color: #ccc;
+}
+.nav a:hover {
+	color: #fff;
+	transition: 0.4s;
+}
+.nav .close {
+	position: absolute;
+	top: 0;
+	right: 22px;
+	margin-left: 50px;
+	font-size: 30px
+}
+.slide a {
+	color: #000;
+	font-size: 36px;
+}
+#content {
+	padding: 20px;
+	transition: margin-left 0.7s;
+	overflow: hidden;
+	width: 100%;
+}
+
+
+#menu{
+    font-family: sans-serif;
+}
+
+#mute{
+    height: 80px;
+    margin-top: 220px;
+    margin-left: -20px;
+    width: 100px;
+    border: hidden;
+}
+
+.snack{margin-top: -107px;}
+            .area{width: 100px;height: 100px; background-image: url(../images/get.png);
+                     animation: move 5s linear infinite; }
+            
+            @keyframes move{
+                
+                0%{
+                    transform:translate(0);
+                    opacity:0;
+                }
+                
+                50%{
+                    transform:translate(1100px);
+                    opacity:1;
+                }
+                100%{
+                    opacity:0;
+                }
+            }
+            
+
+.do{margin-top: -107px;}
+            .scob{width: 100px;height: 100px; background-image: url(../images/get.png); margin-top: -250px;
+                     animation: move 10s linear infinite; }
+            
+            @keyframes move{
+                
+                0%{
+                    transform:translate(0);
+                    opacity:0;
+                }
+                
+                50%{
+                    transform:translate(1100px);
+                    opacity:1;
+                }
+                100%{
+                    opacity:0;
+                }
+            }
+            
+.so{margin-top: -107px;}
+            .bye{width: 100px;height: 100px;background-image: url(../images/get.png); margin-top: 190px;
+                     animation: move 3s linear infinite; }
+            
+            @keyframes move{
+                
+                0%{
+                    transform:translate(0);
+                    opacity:0;
+                }
+                
+                50%{
+                    transform:translate(1100px);
+                    opacity:1;
+                }
+                100%{
+                    opacity:0;
+                }
+            }
+            
+.go{margin-top: -107px;}
+            .no{width: 100px;height: 100px; background-image: url(../images/get.png); margin-top: 210px;
+                     animation: move 7s linear infinite; }
+            
+            @keyframes move{
+                
+                0%{
+                    transform:translate(0);
+                    opacity:0;
+                }
+                
+                50%{
+                    transform:translate(1100px);
+                    opacity:1;
+                }
+                100%{
+                    opacity:0;
+                }
+            }
+
+.footer{
+    background-color: none;
+    margin-top:-25px;
+    width: 200px;
+    font-size: 5px;
+    margin-left: 1225px;
+    height: 25px;
+    line-height: 20px;
+    position: absolute;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+}
