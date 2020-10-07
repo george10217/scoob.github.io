@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+<head>    
+    <title>SCOOB Fake site</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><!--this is where the Animation on Scroll is linked from the internet-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!--this is where the styles for the AOS is linked-->
+     
+</head>
+<body>
+    
+    
+    <div class = "container" >
+        
+<div class= "header" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+    </div>
+
+<div class="snack">
+            <div class="area"></div>
+        </div>
+
+<div class="do">
+            <div class="scob"></div>
+        </div>
+
+<div class="so">
+            <div class="bye"></div>
+        </div>
+
+<div class="go">
+            <div class="no"></div>
+        </div>
+
+
+<div id="menucont">
+
+<span class="slide">
+      <a href="#" onclick="openSlideMenu()">
+        <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" id="me">MENU</div>
+      </a>
+    </span>
+<div id="menu" class="nav">
+      <a href="#" class="close" onclick="closeSlideMenu()">
+        <i class="fas fa-times"></i>
+      </a>
+      <a href="csschall.html">Home</a>
+      <a href="#">About</a>
+      <a href="#">Premiere</a>
+      <a href="https://www.disneyplus.com/" >Disney+</a> 
+      <a href="https://www.netflix.com/au/">Netflix</a>
+      <a href="#">Characters</a>
+      <a href="#">Games</a>
+      <a href="#">Shop</a>
+    </div>
+  </div>
+
+
+
+<div id="char1" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"></div>
+<div id="char2" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true"></div>
+<div id="char3" data-aos="fade-up" data-aos-duration="2500" data-aos-once="true"></div>
+<div id="char4" data-aos="fade-up" data-aos-duration="3000" data-aos-once="true"></div>
+<div id="char5" data-aos="fade-up" data-aos-duration="3500" data-aos-once="true"></div>
+<div id="char6" data-aos="fade-up" data-aos-duration="4000" data-aos-once="true"></div>
+<div id="char7" data-aos="fade-up" data-aos-duration="4500" data-aos-once="true"></div>
+<div id="char8" data-aos="fade-up" data-aos-duration="5000" data-aos-once="true"></div>
+<div id="box" data-aos="fade-up" data-aos-duration="6000" data-aos-once="true" >
+    <img src=images/G.gif data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+
+
+</div>
+
+<div id="song">
+
+<audio id="myAudio" src="audio/song.mp3" controls autoplay loop />
+
+</div>
+
+<div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" id="logo"></div>
+
+<div id="mute">
+     <input type="image" src="images/mute.png">
+ 
+</div>
+
+
+    <div class = "footer">
+        <h2>WARNER STUDIOS,GEORGE GADALLA @ 2020 WBS</h2>
+        
+        
+    </div>
+</div>
+    
+  <script>
+    function openSlideMenu(){
+      document.getElementById('menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+    
+    var x = document.getElementById("myAudio");
+
+    function enableMute() { 
+      audio.muted = true;
+    } 
+  </script>
+  
+  
+  <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+      
+      List();
+    </script>
+
+
+</body>
+</html>
